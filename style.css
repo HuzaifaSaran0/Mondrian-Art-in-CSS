@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(81, 69, 51);
+  padding: 0px;
+  margin: 0%;
+}
+
+.parent {
+  background-color: rgb(0, 0, 0);
+  width: 748px;
+  height: 746px;
+  display: grid;
+  gap: 9px;
+  grid-template-columns: 320px 198px 153px 50px;
+  grid-template-rows: 414px 130px 155px 20px;
+}
+
+.child {
+  background-color: rgba(219, 219, 219, 0.99);
+}
+
+.one {
+  background-color: rgba(226, 49, 49, 0.855);
+}
+
+.second {
+  grid-column: 2 / 5;
+}
+
+.forth {
+  grid-area: 2 / -4 / 4 / -2;
+}
+
+.sixth {
+  grid-row: -3 / -1;
+}
+
+.third {
+  grid-row: 2 / 4;
+}
+
+.eighth {
+  background-color: rgb(199, 199, 29);
+}
+
+.ninth {
+  background-color: rgb(184, 181, 181);
+}
+
+.fifth {
+  border-bottom: 10px solid black;
+  background-color: rgba(0, 64, 255, 0.42);
+}
